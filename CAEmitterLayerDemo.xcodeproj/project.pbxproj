@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0144F51F0502E300BA634C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0144F41F0502E300BA634C /* main.m */; };
+		EC0144F81F0502E300BA634C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0144F71F0502E300BA634C /* AppDelegate.m */; };
+		EC0144FB1F0502E300BA634C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0144FA1F0502E300BA634C /* ViewController.m */; };
+		EC0144FE1F0502E300BA634C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0144FC1F0502E300BA634C /* Main.storyboard */; };
+		EC0145001F0502E300BA634C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0144FF1F0502E300BA634C /* Assets.xcassets */; };
+		EC0145031F0502E300BA634C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0145011F0502E300BA634C /* LaunchScreen.storyboard */; };
+		EC01450E1F0502E300BA634C /* CAEmitterLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC01450D1F0502E300BA634C /* CAEmitterLayerDemoTests.m */; };
+		EC0145191F0502E300BA634C /* CAEmitterLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0145181F0502E300BA634C /* CAEmitterLayerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC01450A1F0502E300BA634C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0144E81F0502E300BA634C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0144EF1F0502E300BA634C;
+			remoteInfo = CAEmitterLayerDemo;
+		};
+		EC0145151F0502E300BA634C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0144E81F0502E300BA634C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0144EF1F0502E300BA634C;
+			remoteInfo = CAEmitterLayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC0144F01F0502E300BA634C /* CAEmitterLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAEmitterLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0144F41F0502E300BA634C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC0144F61F0502E300BA634C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC0144F71F0502E300BA634C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC0144F91F0502E300BA634C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC0144FA1F0502E300BA634C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC0144FD1F0502E300BA634C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0144FF1F0502E300BA634C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0145021F0502E300BA634C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC0145041F0502E300BA634C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0145091F0502E300BA634C /* CAEmitterLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEmitterLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC01450D1F0502E300BA634C /* CAEmitterLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerDemoTests.m; sourceTree = "<group>"; };
+		EC01450F1F0502E300BA634C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0145141F0502E300BA634C /* CAEmitterLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEmitterLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0145181F0502E300BA634C /* CAEmitterLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerDemoUITests.m; sourceTree = "<group>"; };
+		EC01451A1F0502E300BA634C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0144ED1F0502E300BA634C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0145061F0502E300BA634C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0145111F0502E300BA634C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0144E71F0502E300BA634C = {
+			isa = PBXGroup;
+			children = (
+				EC0144F21F0502E300BA634C /* CAEmitterLayerDemo */,
+				EC01450C1F0502E300BA634C /* CAEmitterLayerDemoTests */,
+				EC0145171F0502E300BA634C /* CAEmitterLayerDemoUITests */,
+				EC0144F11F0502E300BA634C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0144F11F0502E300BA634C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0144F01F0502E300BA634C /* CAEmitterLayerDemo.app */,
+				EC0145091F0502E300BA634C /* CAEmitterLayerDemoTests.xctest */,
+				EC0145141F0502E300BA634C /* CAEmitterLayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0144F21F0502E300BA634C /* CAEmitterLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC0144F61F0502E300BA634C /* AppDelegate.h */,
+				EC0144F71F0502E300BA634C /* AppDelegate.m */,
+				EC0144F91F0502E300BA634C /* ViewController.h */,
+				EC0144FA1F0502E300BA634C /* ViewController.m */,
+				EC0144FC1F0502E300BA634C /* Main.storyboard */,
+				EC0144FF1F0502E300BA634C /* Assets.xcassets */,
+				EC0145011F0502E300BA634C /* LaunchScreen.storyboard */,
+				EC0145041F0502E300BA634C /* Info.plist */,
+				EC0144F31F0502E300BA634C /* Supporting Files */,
+			);
+			path = CAEmitterLayerDemo;
+			sourceTree = "<group>";
+		};
+		EC0144F31F0502E300BA634C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0144F41F0502E300BA634C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC01450C1F0502E300BA634C /* CAEmitterLayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC01450D1F0502E300BA634C /* CAEmitterLayerDemoTests.m */,
+				EC01450F1F0502E300BA634C /* Info.plist */,
+			);
+			path = CAEmitterLayerDemoTests;
+			sourceTree = "<group>";
+		};
+		EC0145171F0502E300BA634C /* CAEmitterLayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0145181F0502E300BA634C /* CAEmitterLayerDemoUITests.m */,
+				EC01451A1F0502E300BA634C /* Info.plist */,
+			);
+			path = CAEmitterLayerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0144EF1F0502E300BA634C /* CAEmitterLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC01451D1F0502E300BA634C /* Build configuration list for PBXNativeTarget "CAEmitterLayerDemo" */;
+			buildPhases = (
+				EC0144EC1F0502E300BA634C /* Sources */,
+				EC0144ED1F0502E300BA634C /* Frameworks */,
+				EC0144EE1F0502E300BA634C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAEmitterLayerDemo;
+			productName = CAEmitterLayerDemo;
+			productReference = EC0144F01F0502E300BA634C /* CAEmitterLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC0145081F0502E300BA634C /* CAEmitterLayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0145201F0502E300BA634C /* Build configuration list for PBXNativeTarget "CAEmitterLayerDemoTests" */;
+			buildPhases = (
+				EC0145051F0502E300BA634C /* Sources */,
+				EC0145061F0502E300BA634C /* Frameworks */,
+				EC0145071F0502E300BA634C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC01450B1F0502E300BA634C /* PBXTargetDependency */,
+			);
+			name = CAEmitterLayerDemoTests;
+			productName = CAEmitterLayerDemoTests;
+			productReference = EC0145091F0502E300BA634C /* CAEmitterLayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC0145131F0502E300BA634C /* CAEmitterLayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0145231F0502E300BA634C /* Build configuration list for PBXNativeTarget "CAEmitterLayerDemoUITests" */;
+			buildPhases = (
+				EC0145101F0502E300BA634C /* Sources */,
+				EC0145111F0502E300BA634C /* Frameworks */,
+				EC0145121F0502E300BA634C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0145161F0502E300BA634C /* PBXTargetDependency */,
+			);
+			name = CAEmitterLayerDemoUITests;
+			productName = CAEmitterLayerDemoUITests;
+			productReference = EC0145141F0502E300BA634C /* CAEmitterLayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0144E81F0502E300BA634C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XiHeLaoBo;
+				TargetAttributes = {
+					EC0144EF1F0502E300BA634C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XU6CNWPAHG;
+						ProvisioningStyle = Automatic;
+					};
+					EC0145081F0502E300BA634C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6LRKYFMPF5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC0144EF1F0502E300BA634C;
+					};
+					EC0145131F0502E300BA634C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6LRKYFMPF5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC0144EF1F0502E300BA634C;
+					};
+				};
+			};
+			buildConfigurationList = EC0144EB1F0502E300BA634C /* Build configuration list for PBXProject "CAEmitterLayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0144E71F0502E300BA634C;
+			productRefGroup = EC0144F11F0502E300BA634C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0144EF1F0502E300BA634C /* CAEmitterLayerDemo */,
+				EC0145081F0502E300BA634C /* CAEmitterLayerDemoTests */,
+				EC0145131F0502E300BA634C /* CAEmitterLayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0144EE1F0502E300BA634C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0145031F0502E300BA634C /* LaunchScreen.storyboard in Resources */,
+				EC0145001F0502E300BA634C /* Assets.xcassets in Resources */,
+				EC0144FE1F0502E300BA634C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0145071F0502E300BA634C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0145121F0502E300BA634C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0144EC1F0502E300BA634C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0144FB1F0502E300BA634C /* ViewController.m in Sources */,
+				EC0144F81F0502E300BA634C /* AppDelegate.m in Sources */,
+				EC0144F51F0502E300BA634C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0145051F0502E300BA634C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC01450E1F0502E300BA634C /* CAEmitterLayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0145101F0502E300BA634C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0145191F0502E300BA634C /* CAEmitterLayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC01450B1F0502E300BA634C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0144EF1F0502E300BA634C /* CAEmitterLayerDemo */;
+			targetProxy = EC01450A1F0502E300BA634C /* PBXContainerItemProxy */;
+		};
+		EC0145161F0502E300BA634C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0144EF1F0502E300BA634C /* CAEmitterLayerDemo */;
+			targetProxy = EC0145151F0502E300BA634C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC0144FC1F0502E300BA634C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0144FD1F0502E300BA634C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0145011F0502E300BA634C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0145021F0502E300BA634C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC01451B1F0502E300BA634C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC01451C1F0502E300BA634C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC01451E1F0502E300BA634C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XU6CNWPAHG;
+				INFOPLIST_FILE = CAEmitterLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.CAEmitterLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC01451F1F0502E300BA634C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XU6CNWPAHG;
+				INFOPLIST_FILE = CAEmitterLayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.CAEmitterLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC0145211F0502E300BA634C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = CAEmitterLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.CAEmitterLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAEmitterLayerDemo.app/CAEmitterLayerDemo";
+			};
+			name = Debug;
+		};
+		EC0145221F0502E300BA634C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = CAEmitterLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.CAEmitterLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAEmitterLayerDemo.app/CAEmitterLayerDemo";
+			};
+			name = Release;
+		};
+		EC0145241F0502E300BA634C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = CAEmitterLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.CAEmitterLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAEmitterLayerDemo;
+			};
+			name = Debug;
+		};
+		EC0145251F0502E300BA634C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = CAEmitterLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.CAEmitterLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAEmitterLayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0144EB1F0502E300BA634C /* Build configuration list for PBXProject "CAEmitterLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC01451B1F0502E300BA634C /* Debug */,
+				EC01451C1F0502E300BA634C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC01451D1F0502E300BA634C /* Build configuration list for PBXNativeTarget "CAEmitterLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC01451E1F0502E300BA634C /* Debug */,
+				EC01451F1F0502E300BA634C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC0145201F0502E300BA634C /* Build configuration list for PBXNativeTarget "CAEmitterLayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0145211F0502E300BA634C /* Debug */,
+				EC0145221F0502E300BA634C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC0145231F0502E300BA634C /* Build configuration list for PBXNativeTarget "CAEmitterLayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0145241F0502E300BA634C /* Debug */,
+				EC0145251F0502E300BA634C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0144E81F0502E300BA634C /* Project object */;
+}
